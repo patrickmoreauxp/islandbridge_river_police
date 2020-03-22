@@ -10,7 +10,7 @@ Arguably, the most important rule is Rule 3, which states:
 
 > KEEP out of the middle of the river
 
-Unfortuantely, we often have quite poor 'steerspeople' in Islandbridge. So, the purpose of this repo is to use Strava GPS data to allow people to evaluate their own steering (and expose the worst offenders).
+Unfortuantely, we often have quite poor 'steerspeople' in Islandbridge. So, the purpose of this repo is to use enforce Rule 3 by allowing rowers to evaluate their own steering (~~and to expose the worst offenders muahaha~~).
 
 ## Demo Output
 ![Islandbridge Police - Infringment Locations](https://github.com/patrickmoreauxp/islandbridge_river_police/blob/master/data/infringement_locations.gif)
