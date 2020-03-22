@@ -1,1 +1,1 @@
-![Islandbridge Police - Infringment Locations](data/infringment_locations.gif)
+![Islandbridge Police - Infringment Locations](https://github.com/patrickmoreauxp/islandbridge_river_police/blob/master/data/infringement_locations.gif)
