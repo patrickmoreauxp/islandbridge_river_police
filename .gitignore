@@ -1,14 +1,15 @@
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
 # Ignore the GPS data files except marked bank files
-.gpx
+*.gpx
 !*bank.gpx
 
 # Ignore the .mov files
-.mov
+*.mov
 
 # OS files
 .DS_Store
