@@ -1,4 +1,4 @@
-# Islandbridge Police - Steering Division
+# Islandbridge Rowing Police - Steering Division
 ## Motivation
 Islandbridge is a great place to row and has numerous clubs along this particular stretch of the Liffey. Due to this popularity, the river can get **incredibly** busy! Therefore, for safety reasons, it's extremely import to stick to the [rules of the river](https://github.com/patrickmoreauxp/islandbridge_river_police/blob/master/data/islandbridge_river_rules.png). 
 
@@ -16,7 +16,7 @@ Unfortuantely, we often have quite poor 'steerspeople' in Islandbridge. So, the 
 Using Strava data, we can obtain a rower's co-ordinates at each point in time that a GPS signal is sent (roughly every second). These co-ordinates can be inspected to see if they fall in the correct side of the river (i.e. south side for those rowing upstream and vice versa). For each pair of consecutive timestamps where a rower is on the wrong side of the river, we add that time interval to their overall infringment count. 
 
 ### How do we determine where the middle of the river is?
-To find the middle of the river, GPS markers were manually marked out on the north and south banks of the river. To save time , extra markers were generated programmatically by interpolating on the line between each consecutive pair of markers. 
+To find the middle of the river, roughly 50 GPS markers were manually marked out on the north and south banks of the river. To save time, extra markers were generated programmatically by interpolating on the line between each consecutive pair of markers. 
 
 Then, for each point on the south bank, the midpoint was found by finding the closest point on the north bank and calculating the midpoint on the line between these two points. Repeating this for every point on the south bank should give a good representation of the middle of the river. For these steps, Haversine distance was used to account for the curvature of the Earth. 
 
