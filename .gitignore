@@ -1,0 +1,5 @@
+# Ignore the GPS data files
+.gpx
+
+# Ignore the .mov files
+.mov
