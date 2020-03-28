@@ -1,0 +1,1 @@
+from src.infringements.infringement_finder import infringement_finder
